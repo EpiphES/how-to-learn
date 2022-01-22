@@ -170,6 +170,7 @@
 .table {
   width: 1100px;
   margin: 0 auto;
+  padding: 0;
 
   list-style: none;
 
@@ -226,6 +227,7 @@
 }
 
 .feynman__subtitle {
+  margin: 0;
   font-size: 36px;
   line-height: 51px;
   font-weight: normal;
