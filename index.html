@@ -11,11 +11,7 @@
     <div class="page">
       <!-- Header -->
       <header class="header">
-        <img
-          src="./images/logo_place_header.svg"
-          alt="Логотип Яндекс.Практикум"
-          class="logo logo_place_header"
-        />
+        <div class="logo logo_place_header"></div>
         <h1 class="header__title">Научиться учиться</h1>
         <p class="header__subtitle">
           Какие современные и эффективные подходы к обучению вы можете
@@ -60,11 +56,11 @@
         </section>
         <!-- Digits -->
         <section class="digits">
-          <h2 class="section-title section-title_place_digits">
+          <h2 class="section-title section-title_place_digits centered-block">
             Цифры и факты
           </h2>
-          <h3 class="section-subtitle">Про учёбу и мозг</h3>
-          <ul class="table">
+          <h3 class="section-subtitle centered-block">Про учёбу и мозг</h3>
+          <ul class="table centered-block">
             <li class="table__cell">
               <h4 class="table__heading">86 миллиардов</h4>
               <p class="table__text">Число нейронов в мозге человека</p>
@@ -111,21 +107,23 @@
         </section>
         <!-- Feynman -->
         <section class="feynman">
-          <h2 class="feynman__title">Метод Фейнмана</h2>
+          <h2 class="feynman__title centered-block">Метод Фейнмана</h2>
           <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
           <a href="" class="feynman__link">Подробнее &rarr;</a>
         </section>
         <!-- Kaufman -->
         <section class="kaufman">
           <h2
-            class="section-title section-title_theme_dark section-title_place_kaufman"
+            class="section-title section-title_theme_dark section-title_place_kaufman centered-block"
           >
             Принципы обучения
           </h2>
-          <h3 class="section-subtitle section-subtitle_theme_dark">
+          <h3
+            class="section-subtitle section-subtitle_theme_dark centered-block"
+          >
             от Джоша Кауфмана
           </h3>
-          <ul class="table table_theme_dark">
+          <ul class="table table_theme_dark centered-block">
             <li class="table__cell table__cell_theme_dark">
               <h4 class="table__heading table__heading_theme_dark">1</h4>
               <p class="table__text table__text_theme_dark">
@@ -187,25 +185,22 @@
               </p>
             </li>
           </ul>
-          <img
+          <!-- <img
             src="./images/kaufman-triangle.svg"
             alt="синий треугольник"
             class="kaufman__triangle"
-          />
+          /> -->
+          <div class="kaufman__triangle"></div>
         </section>
       </main>
       <!-- Footer -->
       <footer class="footer">
-        <div class="columns">
-          <div class="column_content_copyright">
-            <img
-              src="./images/logo_place_footer.svg"
-              alt="Логотип Яндекс.Практикум"
-              class="logo logo_place_footer"
-            />
+        <div class="footer__columns">
+          <div class="footer__column footer__column_content_copyright">
+            <div class="logo logo_place_footer"></div>
             <p class="footer__author">&copy; 2022. Екатерина Епифанова</p>
           </div>
-          <div class="column_content_info">
+          <div class="footer__column footer__column_content_info">
             <h2 class="footer__column-heading">О Практикуме</h2>
             <ul class="footer__column-links">
               <li>
@@ -219,9 +214,9 @@
               </li>
             </ul>
           </div>
-          <div class="column_content_social">
+          <div class="footer__column footer__column_content_social">
             <h2 class="footer__column-heading">Соцсети</h2>
-            <nav class="footer__column-links">
+            <ul class="footer__column-links">
               <li>
                 <a class="footer__column-link" href="#"
                   ><img
@@ -249,7 +244,7 @@
                   />Instagram</a
                 >
               </li>
-            </nav>
+            </ul>
           </div>
         </div>
       </footer>
