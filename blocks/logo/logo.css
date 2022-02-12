@@ -1,3 +1,9 @@
 .logo {
   width: 183px;
+  transition: opacity 0.7s ease;
 }
+
+.logo:hover {
+  opacity: 0.5;
+}
+
